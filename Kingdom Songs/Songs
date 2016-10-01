@@ -1,0 +1,40 @@
+
+{
+"feed": {
+"author": {
+"name": {
+"label": "iTunes Store"
+},
+"uri": {
+"label": "http://www.apple.com/itunes/"
+}
+},
+"entry": [
+{
+"im:name": {
+"label": "Zootopia"
+},
+"rights": {
+"label": "© 2016 Disney Enterprises, Inc. All Rights Reserved"
+},
+"im:image": [
+{
+"label": "http://is3.mzstatic.com/image/thumb/Video30/v4/89/c0/0a/89c00a09-016b-6297-102d-6f451310ee17/pr_source.lsr/60x60bb-85.jpg",
+"attributes": {
+"height": "60"
+}
+},
+{
+"attributes": {
+"rel": "self",
+"href": "https://itunes.apple.com/us/rss/topmovies/limit=25/json"
+}
+}
+],
+"id": {
+"label": "https://itunes.apple.com/us/rss/topmovies/limit=25/json"
+}
+}
+}
+
+
