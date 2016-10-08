@@ -193,13 +193,13 @@
             </objects>
             <point key="canvasLocation" x="3202" y="-300"/>
         </scene>
-        <!--Page View Controller-->
+        <!--Songs Page View Controller-->
         <scene sceneID="oyC-QC-FxA">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="Pim-Bj-FfL" sceneMemberID="viewController"/>
+                <pageViewController storyboardIdentifier="PageViewController" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="Pim-Bj-FfL" customClass="SongsPageViewController" customModule="Kingdom_Songs" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1RX-KN-vxJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3172" y="362"/>
+            <point key="canvasLocation" x="2882" y="374"/>
         </scene>
         <!--Favorites-->
         <scene sceneID="h1V-GE-ZHX">
@@ -309,6 +309,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="31E-Vt-Y3t"/>
+        <segue reference="XWJ-c4-Whd"/>
     </inferredMetricsTieBreakers>
 </document>

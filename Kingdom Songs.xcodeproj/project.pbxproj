@@ -18,6 +18,8 @@
 		8ACC7AB91D838F2A00BBD767 /* SongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACC7AB81D838F2A00BBD767 /* SongTableViewCell.swift */; };
 		8ACC7ABB1D83C4CD00BBD767 /* FavoritesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACC7ABA1D83C4CD00BBD767 /* FavoritesTableViewCell.swift */; };
 		8ACC7ADB1D8CB34900BBD767 /* Songs in Resources */ = {isa = PBXBuildFile; fileRef = 8ACC7ADA1D8CB34900BBD767 /* Songs */; };
+		8ACC7AFE1DA0A15200BBD767 /* SongsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACC7AFD1DA0A15200BBD767 /* SongsPageViewController.swift */; };
+		8ACC7B001DA0AD3400BBD767 /* DataSourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACC7AFF1DA0AD3400BBD767 /* DataSourceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		8ACC7AB81D838F2A00BBD767 /* SongTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongTableViewCell.swift; sourceTree = "<group>"; };
 		8ACC7ABA1D83C4CD00BBD767 /* FavoritesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesTableViewCell.swift; sourceTree = "<group>"; };
 		8ACC7ADA1D8CB34900BBD767 /* Songs */ = {isa = PBXFileReference; explicitFileType = compiled; fileEncoding = 4; path = Songs; sourceTree = "<group>"; };
+		8ACC7AFD1DA0A15200BBD767 /* SongsPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongsPageViewController.swift; sourceTree = "<group>"; };
+		8ACC7AFF1DA0AD3400BBD767 /* DataSourceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSourceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 				8ACC7AA01D831D6700BBD767 /* AppDelegate.swift */,
 				8ACC7AA21D831D6700BBD767 /* ViewController.swift */,
 				8ACC7AA41D831D6700BBD767 /* Main.storyboard */,
+				8ACC7AFF1DA0AD3400BBD767 /* DataSourceViewController.swift */,
+				8ACC7AFD1DA0A15200BBD767 /* SongsPageViewController.swift */,
 				8ACC7ABA1D83C4CD00BBD767 /* FavoritesTableViewCell.swift */,
 				8ACC7AB61D838CA000BBD767 /* SpecificSongViewController.swift */,
 				8ACC7AB21D838C1300BBD767 /* SongsViewController.swift */,
@@ -156,10 +162,12 @@
 			files = (
 				8ACC7AB91D838F2A00BBD767 /* SongTableViewCell.swift in Sources */,
 				8ACC7AA31D831D6700BBD767 /* ViewController.swift in Sources */,
+				8ACC7B001DA0AD3400BBD767 /* DataSourceViewController.swift in Sources */,
 				8ACC7AB31D838C1300BBD767 /* SongsViewController.swift in Sources */,
 				8ACC7AB51D838C7C00BBD767 /* FavoritesViewController.swift in Sources */,
 				8ACC7AA11D831D6700BBD767 /* AppDelegate.swift in Sources */,
 				8ACC7AB71D838CA000BBD767 /* SpecificSongViewController.swift in Sources */,
+				8ACC7AFE1DA0A15200BBD767 /* SongsPageViewController.swift in Sources */,
 				8ACC7ABB1D83C4CD00BBD767 /* FavoritesTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
